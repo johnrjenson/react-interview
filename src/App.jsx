@@ -1,7 +1,7 @@
 import './App.css'
 
 function App() {
-  //TODO Make this component load the data from the launch API and display the mission names
+  //TODO This component needs to fetch from https://api.spacexdata.com/v2/launches and display the mission names
   return <div/>
 }
 
