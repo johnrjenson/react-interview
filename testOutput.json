@@ -1,0 +1,41 @@
+{
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 0,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1668458645512,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "App"
+          ],
+          "fullName": " App should render mission names",
+          "status": "failed",
+          "title": "should render mission names",
+          "duration": 1029,
+          "failureMessages": [
+            "Unable to find an element with the text: FalconSat. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div />\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<html>\u001b[39m\n  \u001b[36m<head />\u001b[39m\n  \u001b[36m<body>\u001b[39m\n    \u001b[36m<div>\u001b[39m\n      \u001b[36m<div />\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</body>\u001b[39m\n\u001b[36m</html>\u001b[39m"
+          ],
+          "location": {
+            "line": 9,
+            "column": 11
+          }
+        }
+      ],
+      "startTime": 1668458732699,
+      "endTime": 1668458733728,
+      "status": "failed",
+      "message": "",
+      "name": "/Users/jjenson/dev/react-interview/src/App.test.jsx"
+    }
+  ]
+}
