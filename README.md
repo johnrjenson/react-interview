@@ -1,13 +1,13 @@
-#React Interview - Load Data From API
+# React Interview - Load Data From API
 
-###Directions
+### Directions
 To complete this exercise, open `App.jsx` and modify it to produce the output below. It
 must fetch the data from the API below.
 
-###API
+### API
 HTTP GET https://api.spacexdata.com/v2/launches
 
-####Response:
+#### Response:
 ```js
 [
   {
@@ -33,7 +33,7 @@ HTTP GET https://api.spacexdata.com/v2/launches
 ]
 ```
 
-###Output
+### Output
 The component should render a list of the mission names in html.
 - FalconSat
 - DemoSat
@@ -43,8 +43,8 @@ The component should render a list of the mission names in html.
 
 
 
-#Instructions for Glider
+# Instructions for Glider
 This was created using node v16.15.1
-###Commands
+### Commands
 - `npm run dev` runs the project
 - `npm run test` runs the tests and outputs the test results in `./testOutput.json` 
