@@ -1,6 +1,6 @@
 // src/mocks/handlers.js
 import { rest } from 'msw'
-import { launches } from './launches';
+import { launches } from './launches'
 
 export const handlers = [
   // Handles a GET /user request
