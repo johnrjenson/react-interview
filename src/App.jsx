@@ -2,7 +2,13 @@ import './App.css'
 import {useState, useEffect} from 'react';
 
 function App() {
-  //TODO This component needs to fetch from https://api.spacexdata.com/v2/launches and display the mission names
+
+  //TODO: Display the list of mission names received from the API response
+
+  fetch("https://api.spacexdata.com/v2/launches")
+    .then(response => response.json())
+    .then(data => console.log(data))
+
   return <div/>
 }
 
