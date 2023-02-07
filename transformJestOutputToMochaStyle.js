@@ -44,7 +44,7 @@ function readTestOutput() {
 
 function writeResults(results) {
   const data = JSON.stringify(results, null, 2);
-  fs.writeFileSync("./results.json", data, "utf8");
+  fs.writeFileSync("./result.json", data, "utf8");
 }
 
 const testOutput = readTestOutput();

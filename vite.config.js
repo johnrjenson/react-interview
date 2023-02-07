@@ -18,10 +18,13 @@ export default ({mode}) => {
        * https://vitest.dev/config/#setupfiles
        * They will be run before each test file.
        */
-      setupFiles: ['./src/setupTests.js']
-
+      setupFiles: ['./src/setupTests.js'],
+      cache: {
+        dir: process.env.VITEST_CACHE_DIR
+      }
     },
 
     base: process.env.VITE_BASE_URL,
+    cacheDir: process.env.VITE_CACHE_DIR,
   })
 }
